@@ -75,14 +75,7 @@ shrinkResources false
     }
 
 
-    signingConfigs {
-        release {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile file(keystoreProperties['storeFile'])
-            storePassword keystoreProperties['storePassword']
-        }
-    }
+   
     packagingOptions {
     pickFirst 'lib/x86/libc++_shared.so'
     pickFirst 'lib/x86_64/libc++_shared.so'
