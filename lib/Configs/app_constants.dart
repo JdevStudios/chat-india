@@ -14,7 +14,7 @@ final fiberchatteagreen = new Color(0xFFDCF8C6);
 final fiberchatWhite = Colors.white;
 final fiberchatGrey = Colors.grey;
 final fiberchatChatbackground = new Color(0xffdde6ea);
-const DESIGN_TYPE = Themetype.whatsapp;
+const DESIGN_TYPE = Themetype.messenger;
 // Whatsapp design uses all the above colors with a deep theme whereas Messenger design is a simple white design that uses only these colors: fiberchatgreen, fiberchatlightgreen, fiberchatteagreen,fiberchatblack, fiberchatgrey. Kindly choose your prefered theme & colors accordingly.
 
 //*--Admob Configurations- (By default Test Ad Units pasted)----------
@@ -44,7 +44,7 @@ const GiphyAPIKey =
 
 //*--App Configurations---
 const Appname =
-    'Fiberchat'; //app name shown evrywhere with the app where required
+    'ChatIndia'; //app name shown evrywhere with the app where required
 const IsSplashOnlySolidColor = false;
 const SplashBackgroundSolidColor = Color(
     0xFF005f56); //applies this colors if "IsSplashOnlySolidColor" is set to true
